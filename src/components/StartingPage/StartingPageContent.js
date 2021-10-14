@@ -1,13 +1,11 @@
-import ProfileForm from './ProfileForm';
-import classes from './UserProfile.module.css';
+import classes from './StartingPageContent.module.css';
 
-const UserProfile = () => {
+const StartingPageContent = () => {
   return (
-    <section className={classes.profile}>
-      <h1>Your User Profile</h1>
-      <ProfileForm />
+    <section className={classes.starting}>
+      <h1>Welcome on Board!</h1>
     </section>
   );
 };
 
-export default UserProfile;
+export default StartingPageContent;
